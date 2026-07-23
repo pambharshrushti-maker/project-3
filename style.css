@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+    min-height:100vh;
+    background:#4456a7;
+    padding:20px;
+    display:none;
+    flex-direction:column;
+}
+.start-screen{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#4456a7;
+}
+
+.start-btn{
+    padding:15px 40px;
+    font-size:22px;
+    border:none;
+    border-radius:10px;
+    background:#2ECC71;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.start-btn:hover{
+    background:#27ae60;
+    transform:scale(1.05);
+}
+
+section:nth-child(1) 
+{
+  align-self: flex-end;
+  background-color: #983131;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section:nth-child(2) 
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article 
+{
+  width: 900px;
+  height: 420px;
+  background-color: #2D2B25;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 
+{
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+main 
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+main aside 
+{
+  width: 100%;
+  background-color: white;
+  color: #444;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-family: Calibri, sans-serif;
+}
+
+main aside input
+{
+  margin-right: 10px;
+}
+
+.button 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button 
+{
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover 
+{
+  opacity: 0.9;
+}
+
+.previous 
+{
+  background-color: #EEEEEE;
+  color: #444;
+}
+
+.btn 
+{
+  background-color: #667EEA;
+  color: white;
+}
+
+.submit 
+{
+  background-color: #2ECC71;
+  color: white;
+}
+
+button:disabled 
+{
+  background-color: #CCCCCC;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+section:nth-child(3) 
+{
+  margin-top: 20px;
+  align-self: center;
+  color: white;
+  font-size: 18px;
+} 
+
+.finalans{
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 50px;
+  line-height: 2;
+}
+
+
+.restart-btn {
+    padding: 10px 25px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
